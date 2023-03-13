@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Estetica Milena Sindeaux</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <div style="text-align: center;">
+      <img src="./assets/img/Design sem nome.png" alt="" style="width: 240px; margin-top: -20px;">
+      <h1 style="margin-top: -20px;">Avaliação</h1>
+    </div>
+   <form action="/" id="form" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome">
+      <label for="peso">Peso:</label>
+      <input type="text" id="peso" name="peso" maxlength="5">
+      <label for="altura">Altura:</label>
+      <input  type="text" id="altura" name="altura" maxlength="4">
+      <label for="altura">Idade:</label>
+      <input  type="text" id="idade" name="idade" maxlength="2">
+      <label for="genero">Gênero</label>
+      <select name="genero" id="genero" style="width: 100%; height: 50px; font-size: 22px;">
+        <option value="" style="font-size: 22px;"></option>
+        <option value="M" style="font-size: 22px;">Masculino</option>
+        <option value="F" style="font-size: 22px;">Feminino</option>
+      </select>
+    <button type="submit">Calcular</button>
+   </form>
+
+   <div id="resultado"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
